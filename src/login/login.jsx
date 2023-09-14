@@ -3,6 +3,7 @@ import { useState } from 'react';
 import tecadiLogo from '../assets/tecadi-2.svg'
 import { auth } from '../controllers/auth';
 import './login.css'
+import YouTubeBackground from './components/YoutubeBackground';
 
 function Login() {
   const [username, setUsername] = useState("");
